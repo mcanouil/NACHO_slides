@@ -7,6 +7,5 @@ Imports:
     scales,
     grid,
     knitr,
-    rmarkdown,
-    devtools
+    rmarkdown
 
