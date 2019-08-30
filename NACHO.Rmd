@@ -38,11 +38,9 @@ output_directory <- params[["output_directory"]]
 library(tidyverse)
 library(broom)
 library(scales)
-library(parallel)
 library(grid)
 library(knitr)
 library(rmarkdown)
-library(kableExtra)
 
 devtools::source_url("https://github.com/mcanouil/DEV/raw/master/R/theme_black.R")
 
