@@ -1,0 +1,6 @@
+Package: NACHO_slides
+Title: NACHO_slides
+Version: 0.0.1
+Imports: 
+    rmarkdown
+
