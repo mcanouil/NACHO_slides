@@ -2,5 +2,11 @@ Package: NACHO_slides
 Title: NACHO_slides
 Version: 0.0.1
 Imports: 
-    rmarkdown
+    tidyverse,
+    broom,
+    scales,
+    grid,
+    knitr,
+    rmarkdown,
+    devtools
 
