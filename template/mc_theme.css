@@ -32,7 +32,7 @@ a {
 }
 
 a:hover {
-  color: #ffffff !important;
+  color: var(--url-color) !important;
 }
 
 .uk-icon-button {
@@ -52,7 +52,7 @@ a:hover {
 }
 
 ul {
-  list-style: disc;
+  list-style: none;
 }
 
 ol pre, ul pre {
@@ -69,8 +69,8 @@ ul li ul pre {
 
 pre {
   font-family: 'Source Code Pro', 'Courier New', monospace;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 60%;
+  line-height: 150%;
   padding: 10px 10px 10px 60px;
   letter-spacing: -1px;
   margin-bottom: 5px;
@@ -88,6 +88,7 @@ pre {
   width: 840px;
   left: -60px;
   position: relative;
+  font-size: 85%;
 }
 
 code {
