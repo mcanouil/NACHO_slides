@@ -7,5 +7,6 @@ Imports:
     scales,
     grid,
     knitr,
-    rmarkdown
-
+    rmarkdown,
+    webshot
+Remotes: github::mcanouil/NACHO
