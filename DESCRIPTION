@@ -8,5 +8,6 @@ Imports:
     grid,
     knitr,
     rmarkdown,
-    webshot
+    webshot,
+    GEOquery
 Remotes: github::mcanouil/NACHO
