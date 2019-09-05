@@ -1,5 +1,5 @@
 ---
-title: '`r knitr::include_graphics("https://raw.githubusercontent.com/mcanouil/NACHO/master/man/figures/nacho_hex.png", dpi = 300)`'
+title: '<img src="https://raw.githubusercontent.com/mcanouil/NACHO/master/man/figures/nacho_hex.png" height = "200px"></img>'
 subtitle: "**NA**nostring quality **C**ontrol das**H**b**O**ard"
 author: 
   - name: "Mickaël CANOUIL, *Ph.D.*"
@@ -190,7 +190,7 @@ include_graphics("images/nacho_website.png")
 ```
 
 
-# `r include_graphics("https://raw.githubusercontent.com/mcanouil/NACHO/master/man/figures/nacho_hex.png", dpi = 300)` | (**NA**nostring quality **C**ontrol das**H**b**O**ard) {.flexbox .vcenter}
+# <img src="https://raw.githubusercontent.com/mcanouil/NACHO/master/man/figures/nacho_hex.png" height = "250px"></img>  | (**NA**nostring quality **C**ontrol das**H**b**O**ard) {.flexbox .vcenter}
 
 ## Overview
 
@@ -217,7 +217,7 @@ RCC files are summarised and visualised using two functions:
 * The `normalise()` function creates a list in which your settings, the raw counts and normalised counts are stored.
 
 
-# Let's play a bit with | `r include_graphics("https://raw.githubusercontent.com/mcanouil/NACHO/master/man/figures/nacho_hex.png", dpi = 300)` {.flexbox .vcenter}
+# Let's play a bit with | <img src="https://raw.githubusercontent.com/mcanouil/NACHO/master/man/figures/nacho_hex.png" height = "250px"></img>  {.flexbox .vcenter}
 
 ## Get some RCC files from GEO
 
@@ -1083,7 +1083,7 @@ print(
 * Normalisation method template
 
 
-# `r include_graphics("https://raw.githubusercontent.com/mcanouil/CARoT/master/man/figures/carot_hex.png", dpi = 300)` | (**C**entralised and **A**utomated **R**ep**o**rting **T**ools ) {.flexbox .vcenter}
+# <img src="https://raw.githubusercontent.com/mcanouil/CARoT/master/man/figures/carot_hex.png" height = "250px"></img> | (**C**entralised and **A**utomated **R**ep**o**rting **T**ools ) {.flexbox .vcenter}
 
 ## What is CARoT?
 
