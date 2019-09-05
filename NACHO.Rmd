@@ -1,5 +1,5 @@
 ---
-title: "![NACHO](images/nacho_hex.png){width=200px}"
+title: '`r knitr::include_graphics("images/nacho_hex.png", dpi = 250)`'
 subtitle: "**NA**nostring quality **C**ontrol das**H**b**O**ard"
 author: 
   - name: "Mickaël CANOUIL, *Ph.D.*"
@@ -89,11 +89,17 @@ The nCounter® platform provides a simple and cost effective solution for multip
 - Save Resources
     - Advanced analysis tools included with system reduce the need for Bioinformatics support
     
-![](images/nsolver_01.png){width=600px}
+```{r, echo = FALSE, out.width = 600}
+include_graphics("images/nsolver_01.png")
+```
+
 
 ## NanoString™ nCounter® nSolver™
 
-![](images/nsolver_02.png){width=600px}
+```{r, echo = FALSE, out.width = 600}
+include_graphics("images/nsolver_02.png")
+```
+
 
 ## NanoString™ nCounter® nSolver™
 
@@ -103,17 +109,25 @@ nSolver 4.0 ressources:
 - [User Manual](https://www.nanostring.com/download_file/view/1168/8241)
 
 <div class="columns-2">
-  <div class="columns-2">
-  ![](images/nsolver_03.png){width=200px}
-  
-  ![](images/nsolver_04.png){width=200px}
-  </div>
+<div class="columns-2">
+```{r, echo = FALSE, out.width = 200}
+include_graphics("images/nsolver_03.png")
+```
 
-  <div class="columns-2">
-  ![](images/nsolver_05.png){width=200px}
-  
-  ![](images/nsolver_06.png){width=200px}
-  </div>
+```{r, echo = FALSE, out.width = 200}
+include_graphics("images/nsolver_04.png")
+```
+</div>
+
+<div class="columns-2">
+```{r, echo = FALSE, out.width = 200}
+include_graphics("images/nsolver_05.png")
+```
+
+```{r, echo = FALSE, out.width = 200}
+include_graphics("images/nsolver_06.png")
+```
+</div>
 </div>
 
 ## nSolver™ alternatives?
@@ -161,16 +175,22 @@ webshot::webshot(
 - [NACHO](https://cran.r-project.org/package=NACHO) on CRAN (Since 2019-04-28; Next 2019-10)
 
 <div style="float: left; width: 15%;">
-![](images/nacho_hex.png){width=100px}
+```{r, echo = FALSE, out.width = 100}
+include_graphics("images/nacho_hex.png")
+```
 </div>
 <div style="float: right; width: 85%;">
-![](images/nacho_article.png)
+```{r, echo = FALSE, out.width = 600}
+include_graphics("images/nacho_article.png")
+```
 </div>
 
-![](images/nacho_website.png)
+```{r, echo = FALSE, out.width = 700}
+include_graphics("images/nacho_website.png")
+```
 
 
-# ![NACHO](images/nacho_hex.png){width=300px} | (**NA**nostring quality **C**ontrol das**H**b**O**ard) {.flexbox .vcenter}
+# `r include_graphics("images/nacho_hex.png", dpi = 200)` | (**NA**nostring quality **C**ontrol das**H**b**O**ard) {.flexbox .vcenter}
 
 ## Overview
 
@@ -197,7 +217,7 @@ RCC files are summarised and visualised using two functions:
 * The `normalise()` function creates a list in which your settings, the raw counts and normalised counts are stored.
 
 
-# Let's play a bit with | ![NACHO](images/nacho_hex.png){width=300px} {.flexbox .vcenter}
+# Let's play a bit with | `r include_graphics("images/nacho_hex.png", dpi = 200)` {.flexbox .vcenter}
 
 ## Get some RCC files from GEO
 
@@ -961,7 +981,10 @@ webshot::appshot(
   cliprect = "viewport"
 )
 ```
-![](images/nacho_app.png){width=600px}
+
+```{r, echo = FALSE, out.width = 600}
+include_graphics("images/nacho_app.png")
+```
 
 
 # What's next ? | v0.6.0 & v1.0.0
@@ -1060,7 +1083,7 @@ print(
 * Normalisation method template
 
 
-# ![CARoT](images/carot_hex.png){width=300px} | (**C**entralised and **A**utomated **R**ep**o**rting **T**ools ) {.flexbox .vcenter}
+# `r include_graphics("images/carot_hex.png", dpi = 200)` | (**C**entralised and **A**utomated **R**ep**o**rting **T**ools ) {.flexbox .vcenter}
 
 ## What is CARoT?
 
