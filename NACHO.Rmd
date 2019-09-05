@@ -1,5 +1,5 @@
 ---
-title: '<img src="https://raw.githubusercontent.com/mcanouil/NACHO/master/man/figures/nacho_hex.png" height = "200px"></img>'
+title: '<img src="https://raw.githubusercontent.com/mcanouil/NACHO/master/man/figures/nacho_hex.png" height = "250px"></img>'
 subtitle: "**NA**nostring quality **C**ontrol das**H**b**O**ard"
 author: 
   - name: "Mickaël CANOUIL, *Ph.D.*"
